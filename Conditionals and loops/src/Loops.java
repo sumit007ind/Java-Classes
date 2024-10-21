@@ -10,11 +10,16 @@ public class Loops {
 //            System.out.println(num + "");
 //            System.out.println("Sumit Sharma");
         //}
-    int num  = 1;
-    while ( num <=5){
-        System.out.println(num);
-        num += 1;
-    }
+//    int num  = 1;
+//    while ( num <=5){
+//        System.out.println(num);
+//        num += 1;
+//    }
+        int n = 1;
+        do{
+            System.out.println("Hello World");
+             
+        }while( n != 1);
         }
 
     }
