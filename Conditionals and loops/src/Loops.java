@@ -15,12 +15,12 @@ public class Loops {
 //        System.out.println(num);
 //        num += 1;
 //    }
-        int n = 1;
-        do{
-            System.out.println("Hello World");
-             
-        }while( n != 1);
-        }
+//        int n = 1;
+//        do{
+//            System.out.println("Hello World");
+//
+//        }while( n != 1);
+//        }
 
     }
 
