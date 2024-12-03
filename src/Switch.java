@@ -10,6 +10,7 @@ public class Switch {
             case "orange":
                 System.out.println("rounded fruit with juicy ");
                 break;
+
             case "angoor":
                 System.out.println("angoor");
                 break;
