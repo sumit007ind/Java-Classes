@@ -19,7 +19,7 @@ public class functions {
     }
     static void sum (){
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the first number ");
+        System.out.println("Enter the 1st number ");
         int num1= in.nextInt();
         System.out.println("Enter the 2nd number ");
         int num2 = in.nextInt();
