@@ -10,7 +10,7 @@ public class functions {
     }
     static int sum2(){
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the first number ");
+        System.out.println("Enter the  1st number ");
         int num1= in.nextInt();
         System.out.println("Enter the second number ");
         int num2 = in.nextInt();
