@@ -12,7 +12,7 @@ public class functions {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the  1st number ");
         int num1= in.nextInt();
-        System.out.println("Enter the 2 number ");
+        System.out.println("Enter the 2  ");
         int num2 = in.nextInt();
         int sum = num1 +num2;
         return sum;
