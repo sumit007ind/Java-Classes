@@ -24,5 +24,8 @@ public class Ainput {
             str[i] = in.next();
         }
         System.out.println(Arrays.toString(str));
+        str[1] ="Sumit sharma";
+        System.out.println(Arrays.toString(str));
+
     }
 }
