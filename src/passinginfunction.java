@@ -8,6 +8,6 @@ public class passinginfunction {
         System.out.println(Arrays.toString(nums));
     }
     static void change(int arr[]){
-         arr[2]=;
+         arr[2]=50;
     }
 }
