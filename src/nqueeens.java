@@ -27,8 +27,7 @@ boolean[][] board=new boolean[n][n];
         for (int i = 0; i < row; i++) {
             if(board[i][col]){
                 return false;
-
-        }
+            }
 
     }
         int maxLeft= Math.min(row,col);
