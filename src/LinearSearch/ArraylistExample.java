@@ -1,3 +1,5 @@
+package LinearSearch;
+
 import java.util.ArrayList;
 
 public class ArraylistExample {

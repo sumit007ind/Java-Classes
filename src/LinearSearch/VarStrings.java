@@ -1,10 +1,12 @@
+package LinearSearch;
+
 import java.util.Arrays;
 
-public class Varargs {
+public class VarStrings {
     public static void main(String[] args) {
-         fun(2,34,5,566,55,6,6);
+        fun("sumit, Sharma, Naam , Hai , Mera");
     }
-    static void fun(int...v){
+    static void fun(String...v){
         System.out.println(Arrays.toString(v));
 
     }

@@ -1,3 +1,5 @@
+package LinearSearch;
+
 import java.util.Arrays;
 
 public class twoDARRAY {

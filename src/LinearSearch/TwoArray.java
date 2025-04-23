@@ -1,3 +1,5 @@
+package LinearSearch;
+
 import java.util.Scanner;
 
 public class TwoArray {
