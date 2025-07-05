@@ -6,7 +6,7 @@ public class Smallest {
     }
 
     public char nextGreatestLetter(char[] letters, char target) {
-        public static void main(String[] args) {
+        public  static void main(String[] args) {
             int[ ] arr= {2,3,5,9,14,16,18};
             int target = 4;
             int ans = Ceiling(arr, target);
@@ -26,7 +26,12 @@ public class Smallest {
                 } else if (target>arr[mid]) {
                     start=mid+1;
                 }else{
-                    return mid;
+                   and=mid
+                   if(findstartindex == true){
+                       end = mid-1;
+                   }else{
+                       start = mid+1;
+                   }
                 }
 
 
@@ -34,6 +39,5 @@ public class Smallest {
             return end;
         }
     }
-
 
 }
