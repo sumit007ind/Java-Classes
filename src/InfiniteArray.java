@@ -1,8 +1,6 @@
-package BInarySearch;
-
 public class InfiniteArray {
     public static void main(String[] args) {
-int[] arr = {3,5 , 4,7,9,10,90,100,130,140,160,170};
+int[] arr = {3,5 ,4,7,9,10,90,100,130,140,160,170};
         int target = 10;
         System.out.println(ans(arr,target));
      }
@@ -18,7 +16,8 @@ int[] arr = {3,5 , 4,7,9,10,90,100,130,140,160,170};
             start= newstart;
 
         }
-        return binarySearch(arr,start,end,target);
+        return binarySearch(arr,target, 0,end
+        );
     }
     static int binarySearch(int[] arr, int target,int start,  int end ){
 
