@@ -12,7 +12,7 @@ public class findAllDuplicate {
                 int j = i + 1;
                 int correct = arr[i] - 1;
                 if (arr[i] != arr[correct]) {
-                    swap(arr, i, 
+                    swap(arr, i, correct);
                 } else {
                     i++;
                 }
