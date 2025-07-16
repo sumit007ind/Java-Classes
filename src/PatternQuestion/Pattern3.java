@@ -6,8 +6,8 @@ public class Pattern3 {
     }
     static void pattern4 ( int n){
         for (int row = 1; row <=n; row++) {
-            for (int col = 1; col <=n-row+1; col++) {
-                System.out.print( col );
+            for (int col = row; col <=n; col++) {
+                System.out.print( "* " );
 
             }
             System.out.println();
