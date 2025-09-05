@@ -1,6 +1,8 @@
+package BasicQuestion;
+
 public class greet {
     public static void main(String[] args) {
-//      String message = greet();
+//      String message = BasicQuestion.greet();
 //      System.out.println(message);
 
         String Name = myGreet(  "sumit sharma");

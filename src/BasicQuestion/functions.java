@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package BasicQuestion;
+
 import java.util.Scanner;
 
 public class functions {
@@ -24,7 +25,7 @@ public class functions {
         System.out.println("Enter the 2nd number ");
         int num2 = in.nextInt();
         int sum = num1 +num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+        System.out.println("The BasicQuestion.sum of " + num1 + " and " + num2 + " is " + sum);
 
     }
 }

@@ -1,3 +1,5 @@
+package BasicQuestion;
+
 import java.util.Random;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package BasicQuestion;
+
 public class colNotfixed {
     public static void main(String[] args) {
         int[][] arr= {

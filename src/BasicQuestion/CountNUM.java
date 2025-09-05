@@ -1,3 +1,5 @@
+package BasicQuestion;
+
 public class CountNUM {
     public static void main(String[] args) {
         int n= 11111111;

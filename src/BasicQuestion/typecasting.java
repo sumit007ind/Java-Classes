@@ -1,9 +1,11 @@
+package BasicQuestion;
+
 import java.util.Scanner;
 
 public class typecasting {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-//        float num = input.nextFloat();
+//        float num = BasicQuestion.input.nextFloat();
 //        System.out.println(num);
 //          float num = (int)(50.1315f);
 //          System.out.println(num);
