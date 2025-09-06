@@ -11,9 +11,7 @@ public class findmissingN {
             int j = i+1;
             int correct = nums[i] -1;
             if(nums[i] != nums[correct]){
-                swap(nums , i ,correct);
-            }else{
-                i++;
+         
             }
         }
         List<Integer> ans = new ArrayList<Integer>();
