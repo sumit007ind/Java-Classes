@@ -1,18 +1,17 @@
 package BasicQuestion;
 
 public class greet {
-    public static void main(String[] args) {
-//      String message = BasicQuestion.greet();
-//      System.out.println(message);
+    public class LargestOfTwo {
+        public static void main(String[] args) {
+            int a = 20, b = 15;
 
-        String Name = myGreet(  "sumit sharma");
-        System.out.println(Name);
-
-
+            if (a > b) {
+                System.out.println("Largest number is: " + a);
+            } else {
+                System.out.println("Largest number is: " + b);
+            }
+        }
     }
-    static String myGreet( String name) {
-         String greeting ="hello + name";
-         return greeting;
-    }
+
 
 }
