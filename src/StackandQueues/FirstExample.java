@@ -8,9 +8,8 @@ public class FirstExample {
         Stack.push(12);
         Stack.push(13);
         Stack.push(14);
-        System.out.println(Stack.pop());
-        System.out.println(Stack.pop());
-        System.out.println(Stack.pop() );
+        System.out.println(Stack.peek());
+
 
     }
 }
